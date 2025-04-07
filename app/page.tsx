@@ -110,7 +110,7 @@ export default function Home() {
             <div className="bg-background rounded-lg p-6 shadow-sm border">
               <div className="aspect-square rounded-lg bg-muted flex items-center justify-center">
                 <img
-                  src="\profle-photo.jpg"
+                  src="profle-photo.jpg"
                   alt="Akshay Sakpal"
                   className="rounded-lg"
                   width={600}
@@ -240,7 +240,7 @@ export default function Home() {
             <ProjectCard
               title="Credit Risk Modeling"
               description="An application to predict loan approval based on priority levels, conducted EDA on real-time banking datasets with 50+ input variables and training an XGBoost model using inputs such as Credit Score, Delinquency Level, Education, and Gender."
-              image="/credit-risk.jpg"
+              image="credit-risk.jpg"
               tags={["Python", "XGBoost", "EDA", "Machine Learning"]}
               link="https://github.com/SakpalAkshay/Credit-Risk-Modelling"
             />
@@ -254,7 +254,7 @@ export default function Home() {
             <ProjectCard
               title="Medi-X-Pro"
               description="A full-stack web application for medical image analysis using Gemini-Pro-Vision and prompt generation with LLM, with a Next.js front end featuring OTP-based authentication and Sentry for metrics management, and a Fast API backend incorporating LangChain for Gen AI."
-              image="/medi-x-pro.jpg"
+              image="medi-x-pro.jpg"
               tags={["Next.js", "FastAPI", "LangChain", "Gemini-Pro-Vision"]}
               link="https://github.com/SakpalAkshay/Medi-X-Pro"
             />
@@ -262,14 +262,14 @@ export default function Home() {
             <ProjectCard
               title="Chest-Xray Classification"
               description="A chest cancer classification system using VGG16 on chest X-ray images, leveraging MLflow for experiment tracking and DVC for pipeline management, following MLOps principles."
-              image="/chest-xray.jpg"
+              image="chest-xray.jpg"
               tags={["VGG16", "MLflow", "DVC", "MLOps"]}
               link="https://github.com/SakpalAkshay/ML-OPS-Project"
             />
              <ProjectCard
               title="Malaria Detection using CNN"
               description="Ulitized Convolutional Neural Networks to categorize Red Blood Cells images to Parasitic and Non Parasitic to detect Malaria"
-              image="/malaria.jpg"
+              image="malaria.jpg"
               tags={["CNN", "ResNet50","Python", "Computer Vision", "Neural Networks"]}
               link="https://github.com/SakpalAkshay/Malaria-Detection-Resnet50"
             />
@@ -277,7 +277,7 @@ export default function Home() {
              <ProjectCard
               title="Restautrant-X: Zomato Case Study"
               description="Carried out Exploratory data analysis on Zomato's restaurant data, trying to find whats factors will lead to bring up a successfull restaurant in Banglore City"
-              image="/zomato.jpg"
+              image="zomato.jpg"
               tags={["Machine Learning", "EDA", "Streamlit", "Random-Forest"]}
               link="https://github.com/SakpalAkshay/edaZomato"
             />
