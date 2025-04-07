@@ -30,7 +30,7 @@ jobs:
       - name: Set up Node.js (Version 18.x)
         uses: actions/setup-node@v3
         with:
-          node-version: '18'  # Update this to a version Next.js supports
+          node-version: '18'  # Update to the version supported by Next.js
 
       - name: Install dependencies
         run: npm install --force  # Install dependencies
@@ -39,7 +39,7 @@ jobs:
         run: npm run build  # Build the Next.js project
 
       - name: Export the Next.js site as static files
-        run: npm run export  # This will generate a static site in the 'out' directory
+        run: npm run export  # Now this should work, as 'export' is added to package.json
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
